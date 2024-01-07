@@ -8,8 +8,7 @@ from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
-    ''' Generator that yields a random value between 0 and 10 every second,
-        10 times. '''
-    for i in range(10):
+    """async_generator"""
+    for _ in range(10):
         await sleep(1)
         yield 10 * random()
