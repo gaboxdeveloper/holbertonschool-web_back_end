@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-	write a coroutine called async_generator that takes no arguments
+    write a coroutine called async_generator that takes no arguments
 """
 from asyncio import sleep
 import random
