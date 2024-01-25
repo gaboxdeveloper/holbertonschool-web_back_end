@@ -1,6 +1,7 @@
 export default function getResponseFromAPI() {
-  return new Promise((res, rej) => {
+  const Promesa = new Promise((res, rej) => {
     res();
     rej();
   });
+  return Promesa;
 }
