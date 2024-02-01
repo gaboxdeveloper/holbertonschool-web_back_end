@@ -1,8 +1,7 @@
 export default function getListStudentIds(arr) {
+  let respuesta = [];
   if (Array.isArray(arr)) {
-    const respuesta = arr.map(a => a.id);
-    return respuesta;
-  } else {
-    return [];
+    respuesta = arr.map((a) => a.id);
   }
+  return respuesta;
 }
