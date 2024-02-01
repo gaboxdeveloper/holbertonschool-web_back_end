@@ -1,3 +1,4 @@
 export default function getStudentsByLocation(arr, city) {
-  return result = arr.filter((arr) => arr.location === city);
+  const result = arr.filter((arr) => arr.location === city);
+  return result;
 }
